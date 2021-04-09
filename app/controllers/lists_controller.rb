@@ -36,6 +36,7 @@ class ListsController < ApplicationController
   # DELETE /lists/1
   def destroy
     @list.destroy
+    render json: @list
   end
 
   private
