@@ -1,27 +1,34 @@
-# README
+# Listy React App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Listy is a React JS web app that allows users to create todo list items and check them off once completed. 
+Additional fun 'brighten your day' feature.
 
-Things you may want to cover:
+# Demo Video
 
-* Ruby version
+[Watch it here] (https://youtu.be/c-i0ccii0QY)
 
-* System dependencies
+# Front-end
+[Link to front-end](https://github.com/caligraham/listy-frontend)
 
-* Configuration
+# Installation & Usage
 
-* Database creation
+- Fork & clone both repositories (front-end and backend)
+- In the back-end directory:
+    - Execute bundle install
+    - Run rails db:create
+    - Run rails db:migrate
+    - Run rails db:seed to seed the database
 
-* Database initialization
+- In the front-end directory:
+    - Execute npm install
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+Run rails s in terminal inside the backend project folder.
+$ rails s
+Run yarn start OR npm start in terminal inside the frontend project folder.
+$ yarn start
+OR
+$ npm start
 
-* Deployment instructions
-
-* ...
-# listy-lister-backend
-
-ya'll trippppin on a stick - this is not working
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
